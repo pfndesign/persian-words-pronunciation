@@ -1,0 +1,37 @@
+{
+  "name": "persian-words-pronunciation",
+  "version": "1.0.0",
+  "description": "list of persian word pronunciations",
+  "main": "index.js",
+  "bin": {
+    "persianpronunciation": "./cli.js",
+    "persian-words-pronunciation": "./cli.js"
+  },
+  "scripts": {
+    "test-api": "node test",
+    "test": "npm run test-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfndesign/persian-words-pronunciation.git"
+  },
+  "keywords": [
+    "word",
+    "words",
+    "persian",
+    "fa",
+    "pronunciation"
+  ],
+  "author": "peyman farahmand <pfndesigen@gmail.com> (https://www.linkedin.com/in/pfndesign)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfndesign/persian-words-pronunciation/issues"
+  },
+  "homepage": "https://github.com/pfndesign/persian-words-pronunciation#readme",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "tape": "^5.5.2"
+  }
+}
